@@ -3,3 +3,6 @@ node_modules/
 
 artifacts-zk/
 cache-zk/
+
+key/
+damocles.ts
