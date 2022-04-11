@@ -1,6 +1,6 @@
 # zksync-demo
 
-安装依赖文件11111
+安装依赖文件
 ```
 yarn add -D typescript ts-node ethers zksync-web3 hardhat @matterlabs/hardhat-zksync-solc @matterlabs/hardhat-zksync-deploy
 ```
