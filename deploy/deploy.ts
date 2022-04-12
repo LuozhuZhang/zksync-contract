@@ -4,15 +4,14 @@ import { HardhatRuntimeEnvironment } from 'hardhat/types';
 // https://github.com/matter-labs/hardhat-zksync/blob/main/packages/hardhat-zksync-deploy/src/deployer.ts
 import { Deployer } from '@matterlabs/hardhat-zksync-deploy';
 
-import { private_key } from '../key/damocles';
-
+require('dotenv').config();
 
 export default async function (hre: HardhatRuntimeEnvironment) {
   console.log('run deploy code for Greeter contract');
 
   // * 初始化钱包
   // * Initialize wallet
-  const wallet = new Wallet(private_key);
+  const wallet = new Wallet(process.env.PRIVATE_KEY);
 
   const deployer = new Deployer(hre, wallet);
   // * 将部署合约的名称传入，因为这里名称独一无二，所以传入名称即可；否则需要传入完整文件路径

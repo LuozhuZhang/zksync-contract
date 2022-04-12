@@ -6,3 +6,5 @@ cache-zk/
 
 key/
 damocles.ts
+
+.env
