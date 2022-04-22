@@ -1,4 +1,4 @@
-# zksync-contract-demo
+# zksync-contract
 
 安装依赖文件
 ```
