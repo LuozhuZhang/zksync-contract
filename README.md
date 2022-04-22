@@ -48,7 +48,7 @@ ps：eth 2500u, gaslimit 3000w, gas 30Gwei, 出块时间 13s, 极限TPS占领所
 
 ---
 
-# zksync-demo
+# zksync-contract
 
 Install dependencies
 ```
